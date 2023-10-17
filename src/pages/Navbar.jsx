@@ -32,7 +32,7 @@ export default function Navbar() {
       <header className={`${bg} z-20 rounded-full fixed w-[98%] left-[1%] duration-300 py-6 px-4 md:px-12 mt-2 h-[10%] flex justify-between`}>
         <motion.div initial={{ x: -100 }} animate={{ x: 0 }} exit={{ opacity: 0 }} transition={{ ease: 'easeOut', duration: 0.5 }} className="flex items-center">
           <img src={logo} alt="" width="10%" />
-          <h1 className='md:text-2xl text-white'> &lt;<span className='nes-text is-primary'>feittan</span>/&gt; </h1>
+          <h1 className='md:text-2xl text-white'> &lt;<span className='nes-text is-primary'>Josue</span>/&gt; </h1>
         </motion.div>
         <motion.ul initial={{ x: 100 }} animate={{ x: 0 }} exit={{ opacity: 0 }} transition={{ ease: 'easeOut', duration: 0.5 }} className='xl:w-[80%] hidden xl:flex text-xs nes-text is-warning justify-between items-center w-[55%] 2xl:text-sm'>
           <NavItem redirect={'inicio'} text={'Inicio'} />

@@ -6,6 +6,7 @@ import Navbar from "./pages/Navbar"
 import Presentacion from "./pages/Presentacion"
 import Proyectos from "./pages/Proyectos"
 import Experiencia from "./pages/Experiencia"
+import Noticias from "./pages/Noticias"
 
 function App() {
 
@@ -20,6 +21,7 @@ function App() {
       <Proyectos/>
       <Habilidades/>
       <Contactame/>
+      <Noticias/>
     </>
   )
 }

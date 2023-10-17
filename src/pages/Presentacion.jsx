@@ -1,7 +1,9 @@
 import React from 'react'
 import gif from '../assets/gif.gif'
+import foto from '../assets/foto.png'
 import Typewriter from 'typewriter-effect';
 import { motion } from "framer-motion"
+import portafolio from "../assets/portfolio.png"
 
 export default function Presentacion() {
 
@@ -18,11 +20,12 @@ export default function Presentacion() {
               loop: true,
             }} />
         </p>
-        <div className="pt-12 flex justify-around w-[85%] lg:w-1/2">
-          <a href="https://www.linkedin.com/in/josuecastillomurrieta/" target='_blank'><i className="nes-icon nes-pointer linkedin is-large"></i></a>
+        <div className="pt-12 flex justify-around w-[85%] lg:w-2/3">
+          <a href="https://www.linkedin.com/in/josuecastillomurrieta/" target='_blank' ><i className="nes-icon nes-pointer linkedin is-large" ></i></a>
           <a href="mailto:josuecastillom07@gmail.com" target='_blank'><i className="nes-icon nes-pointer gmail is-large" ></i></a>
           <a href="https://github.com/feittanJC" target='_blank'><i className="nes-icon nes-pointer github is-large" ></i></a>
           <a href="https://www.instagram.com/feittanj/" target='_blank'><i className="nes-icon nes-pointer instagram is-large" ></i></a>
+          <a href="src\assets\CV_-_Josue_Castillo_.pdf" download={"CV-JosueCastillo.pdf"}> <img className="nes-avatar is-large"  src={portafolio}/> </a>
         </div>
       </motion.div>
       <motion.div animate={{ y: [-20, 20, -20] }} transition={{
@@ -31,7 +34,7 @@ export default function Presentacion() {
 
         repeat: Infinity
       }} className="hidden md:flex md:w-[60%] lg:w-1/3">
-        <motion.img initial={{ x: 100 }} animate={{ x: 0 }} exit={{ opacity: 0 }} transition={{ ease: "easeOut", duration: 0.5 }} className='hidden md:block rounded-full w-[100%]' src={gif} alt="" />
+        <motion.img initial={{ x: 100 }} animate={{ x: 0 }} exit={{ opacity: 0 }} transition={{ ease: "easeOut", duration: 0.5 }} className='hidden md:block rounded-full w-[100%]' src={foto}  />
       </motion.div>
     </section>
   )
