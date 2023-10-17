@@ -3,6 +3,7 @@ import Proyecto from '../components/Proyecto';
 import puka from '../assets/proyectos/puka.png';
 import retail from '../assets/proyectos/retail.png';
 import dc from '../assets/proyectos/dc.png';
+import lol from '../assets/proyectos/lol.png';
 import reactImage from '../assets/tecnologias/react.png';
 import tailwindImage from '../assets/tecnologias/tailwind.png';
 import viteImage from '../assets/tecnologias/vite.svg';
@@ -48,6 +49,12 @@ export default function Proyectos() {
           titulo={"Clon de página de Tesla"}
           tecnologias={[astro, tailwindImage]}
           descripcion={"Clon de la página principal de Tesla"}
+        />
+        <Proyecto
+          img={lol}
+          tecnologias={[reactImage, tailwindImage, viteImage]}
+          titulo={"Pagina de campeones de League of Legends"}
+          descripcion={"Página que recoge datos de una API de League of Legends"}
         />
       </div>
     </section>
