@@ -25,7 +25,7 @@ export default function Presentacion() {
           <a href="mailto:josuecastillom07@gmail.com" target='_blank'><i className="nes-icon nes-pointer gmail is-large" ></i></a>
           <a href="https://github.com/feittanJC" target='_blank'><i className="nes-icon nes-pointer github is-large" ></i></a>
           <a href="https://www.instagram.com/feittanj/" target='_blank'><i className="nes-icon nes-pointer instagram is-large" ></i></a>
-          <a href="https://drive.google.com/file/d/13wxYYMcd-v7vqO20ZO9JD5Wb97YRF-qL/view?usp=sharing" download={"CV-JosueCastillo.pdf"}> <img className="nes-avatar is-large"  src={portafolio}/> </a>
+          <a href="https://drive.google.com/file/d/13wxYYMcd-v7vqO20ZO9JD5Wb97YRF-qL/view?usp=sharing" target='_blank'> <img className="nes-avatar is-large"  src={portafolio}/> </a>
         </div>
       </motion.div>
       <motion.div animate={{ y: [-20, 20, -20] }} transition={{
