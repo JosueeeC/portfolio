@@ -4,7 +4,7 @@ import { motion } from "framer-motion"
 
 export default function AcercaDeMi() {
   return (
-    <section id="sobremi" className='bg-[#0F2866] h-screen text-center py-12 flex justify-center items-center'>
+    <section id="sobremi" className='bg-[#0F2866] 2xl:h-screen text-center py-12 flex justify-center items-center'>
 
       <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ duration: 1 }} viewport={1} className="bg-[#181818] w-[90%] lg:w-3/4 my-12 px-4 py-12 md:p-12 text-white rounded-xl flex items-center">
         <img src={avatar} alt="" className='w-1/2 lg:h-1/2 hidden lg:flex' />
